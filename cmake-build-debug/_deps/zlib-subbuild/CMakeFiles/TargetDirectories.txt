@@ -1,0 +1,3 @@
+D:/AGoogle/SkillBox/_C++/Skillbox_practice_works_30/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate.dir
+D:/AGoogle/SkillBox/_C++/Skillbox_practice_works_30/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/edit_cache.dir
+D:/AGoogle/SkillBox/_C++/Skillbox_practice_works_30/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/rebuild_cache.dir
