@@ -13,7 +13,7 @@ project(curl-populate NONE)
 
 include(ExternalProject)
 ExternalProject_Add(curl-populate
-                     "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "URL" "https://github.com/curl/curl/releases/download/curl-7_80_0/curl-7.80.0.tar.xz" "URL_HASH" "SHA256=a132bd93188b938771135ac7c1f3ac1d3ce507c1fcbef8c471397639214ae2ab"
+                     "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "NEW" "URL" "https://github.com/curl/curl/releases/download/curl-7_80_0/curl-7.80.0.tar.xz" "URL_HASH" "SHA256=a132bd93188b938771135ac7c1f3ac1d3ce507c1fcbef8c471397639214ae2ab"
                     SOURCE_DIR          "D:/AGoogle/SkillBox/_C++/Skillbox_practice_works_30/cmake-build-debug/_deps/curl-src"
                     BINARY_DIR          "D:/AGoogle/SkillBox/_C++/Skillbox_practice_works_30/cmake-build-debug/_deps/curl-build"
                     CONFIGURE_COMMAND   ""

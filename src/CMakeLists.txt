@@ -4,6 +4,9 @@ add_executable(Skillbox_30
         main.cpp
         use_lib.cpp
         solution_1.cpp
+        solution_2.cpp
+        solution_3.cpp
+
         )
 
 target_link_libraries(Skillbox_30 PRIVATE cpr::cpr)
