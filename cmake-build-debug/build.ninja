@@ -2495,6 +2495,22 @@ build src\CMakeFiles\Skillbox_30.dir\main.cpp.obj: CXX_COMPILER__Skillbox_30_Deb
   TARGET_COMPILE_PDB = src\CMakeFiles\Skillbox_30.dir\
   TARGET_PDB = Skillbox_30.pdb
 
+build src\CMakeFiles\Skillbox_30.dir\use_lib.cpp.obj: CXX_COMPILER__Skillbox_30_Debug D$:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\src\use_lib.cpp || cmake_object_order_depends_target_Skillbox_30
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\include -ID:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\cmake-build-debug\_deps\cpr-src\include -ID:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\cmake-build-debug\_deps\cpr-build\cpr_generated_includes -ID:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\cmake-build-debug\_deps\curl-src\include
+  OBJECT_DIR = src\CMakeFiles\Skillbox_30.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Skillbox_30.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\Skillbox_30.dir\
+  TARGET_PDB = Skillbox_30.pdb
+
+build src\CMakeFiles\Skillbox_30.dir\solution_1.cpp.obj: CXX_COMPILER__Skillbox_30_Debug D$:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\src\solution_1.cpp || cmake_object_order_depends_target_Skillbox_30
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\include -ID:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\cmake-build-debug\_deps\cpr-src\include -ID:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\cmake-build-debug\_deps\cpr-build\cpr_generated_includes -ID:\AGoogle\SkillBox\_C++\Skillbox_practice_works_30\cmake-build-debug\_deps\curl-src\include
+  OBJECT_DIR = src\CMakeFiles\Skillbox_30.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Skillbox_30.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\Skillbox_30.dir\
+  TARGET_PDB = Skillbox_30.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Skillbox_30
@@ -2503,7 +2519,7 @@ build src\CMakeFiles\Skillbox_30.dir\main.cpp.obj: CXX_COMPILER__Skillbox_30_Deb
 #############################################
 # Link the executable Skillbox_30.exe
 
-build Skillbox_30.exe: CXX_EXECUTABLE_LINKER__Skillbox_30_Debug src\CMakeFiles\Skillbox_30.dir\main.cpp.obj | _deps\cpr-build\cpr\cpr.lib _deps\curl-build\lib\libcurl-d_imp.lib || cpr.dll libcurl-d.dll
+build Skillbox_30.exe: CXX_EXECUTABLE_LINKER__Skillbox_30_Debug src\CMakeFiles\Skillbox_30.dir\main.cpp.obj src\CMakeFiles\Skillbox_30.dir\use_lib.cpp.obj src\CMakeFiles\Skillbox_30.dir\solution_1.cpp.obj | _deps\cpr-build\cpr\cpr.lib _deps\curl-build\lib\libcurl-d_imp.lib || cpr.dll libcurl-d.dll
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = _deps\cpr-build\cpr\cpr.lib  _deps\curl-build\lib\libcurl-d_imp.lib  winmm.lib  ws2_32.lib  advapi32.lib  crypt32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
