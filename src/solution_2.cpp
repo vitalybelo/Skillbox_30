@@ -1,12 +1,24 @@
+#include <string>
 #include <iostream>
 #include <cpr/cpr.h>
-#include "use_lib.h"
 using namespace std;
+
 
 void solution_2() {
 
-    cpr::Response response = cpr::Head(cpr::Url{"https://www.httpbin.org/get"});
+    cout << "\n**************** SOLUTION #2 ******************\n" << endl;
 
-    cout << response.text << endl;
+    cpr::Response response = cpr::Get
+            (
+            cpr::Url{"https://www.httpbin.org/html"},
+            cpr::Header{{"accept", "text/html"}}
+            );
+    //cout << response.text << endl;
 
+    unsigned int start = response.text.find("<h1>",0) + 4;
+    unsigned int finish = response.text.find("</h1>",start);
+    string title = response.text.substr(start, finish - start);
+
+    cout << "TITLE :: \"" << title << "\"" << endl;
 }
+

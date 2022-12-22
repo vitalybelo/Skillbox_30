@@ -7,7 +7,7 @@ int main() {
      * Задание №1
      * Реализованы HTTP запросы: GET, POST, PUT, PATCH, DELETE
      */
-    //solution_1();
+    solution_1();
 
     solution_2();
 
