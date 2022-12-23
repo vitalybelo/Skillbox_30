@@ -31,8 +31,7 @@ void solution_1() {
             cpr::Response response = cpr::Post
                     (
                     cpr::Url{"https://httpbin.org/post"},
-                    cpr::Parameters{{"name", "Palmer"},{"age", "55"}},
-                    cpr::Payload{{"RAW DATA","IS HERE"}}
+                    cpr::Payload{{"name", "Palmer"},{"age", "55"}}
                     );
             cout << "\nRESPONSE STATUS: " << response.status_code << endl;
             cout << response.text << endl;
@@ -42,7 +41,7 @@ void solution_1() {
             cpr::Response response = cpr::Put
                     (
                     cpr::Url{"https://httpbin.org/put"},
-                    cpr::Parameters{{"name", "Zuckerman"}, {"skill", "Senior"}}
+                    cpr::Payload{{"name", "Zuckerman"}, {"skill", "Senior"}}
                     );
             cout << "\nRESPONSE STATUS: " << response.status_code << endl;
             cout << response.text << endl;
@@ -52,7 +51,7 @@ void solution_1() {
             cpr::Response response = cpr::Patch
                     (
                     cpr::Url{"https://httpbin.org/patch"},
-                    cpr::Parameters{{"name", "Zuckerman"}, {"skill", "TeamLeader"}}
+                    cpr::Payload{{"name", "Zuckerman"}, {"skill", "TeamLeader"}}
                     );
             cout << "\nRESPONSE STATUS: " << response.status_code << endl;
             cout << response.text << endl;
