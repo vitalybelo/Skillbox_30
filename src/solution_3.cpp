@@ -50,8 +50,6 @@ static cpr::Response mappingGet()
 
     cpr::Session session;
     session.SetUrl(url);
-    session.SetUserAgent("Mozilla/5.0 (Windows NT 10.0; rv:108.0) Gecko/20100101 Firefox/108.0");
-    session.SetHeader({{"host","google.com"}});
 
     return session.Get();
 }
@@ -64,8 +62,6 @@ static cpr::Response mappingPost()
 
     cpr::Session session;
     session.SetUrl("https://www.httpbin.org/post");
-    session.SetUserAgent("Mozilla/5.0 (Windows NT 10.0; rv:108.0) Gecko/20100101 Firefox/108.0");
-    session.SetHeader({{"host","google.com"}});
     session.SetPayload(payload);
 
     return session.Post();
