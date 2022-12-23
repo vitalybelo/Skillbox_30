@@ -3,7 +3,9 @@
 #include <cpr/cpr.h>
 using namespace std;
 
-
+/**
+ * Читаем страницу по адресу https://www.httpbin.org/html, находим заголовок и выводим в консоль
+ */
 void solution_2() {
 
     cout << "\n**************** SOLUTION #2 ******************\n" << endl;
