@@ -1,8 +1,6 @@
-#include <iostream>
 #include "solutions.h"
 
 int main() {
-
     // Реализованы HTTP запросы: GET, POST, PUT, PATCH, DELETE
     solution_1();
 
@@ -11,7 +9,6 @@ int main() {
 
     // Реализованы запросы GET (с передачей параметров) и POST (с передачей параметров)
     solution_3();
-
 
     return 0;
 }
