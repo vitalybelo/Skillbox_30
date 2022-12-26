@@ -9,10 +9,9 @@ int main() {
     // Читаем страницу по адресу https://www.httpbin.org/html, находим заголовок и выводим в консоль
     solution_2();
 
+    // Реализованы запросы GET (с передачей параметров) и POST (с передачей параметров)
     solution_3();
 
 
-//    std::cout << std::endl << std::endl;
-//    system("pause");
     return 0;
 }

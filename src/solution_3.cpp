@@ -11,6 +11,9 @@ static cpr::Response mappingPost();
 static vector<cpr::Pair> generatePairs(bool genId);
 static void displayResponse(const cpr::Response& response);
 
+/**
+ * реализованы запросы GET (с передачей параметров) и POST (с передачей параметров)
+ */
 void solution_3()
 {
     setlocaleRus();
