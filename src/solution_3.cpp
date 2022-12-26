@@ -69,6 +69,7 @@ static cpr::Response mappingPost()
 
 static void displayResponse(const cpr::Response& response)
 {
+    cout << endl;
     cout << "Request code: " << response.status_code << endl;
     cout << "Request took: " << response.elapsed << " sec" << endl;
     cout << "Body:" << endl;
@@ -80,7 +81,7 @@ static void displayHelp()
     cout << "Данные в задании будут создаваться автоматически из массива 8-ми сотрудников\n";
     cout << "Автоматически будут выбираться имена, возраст, опыт и т.п., всего 5 параметров\n";
     cout << "Объем данных запроса также будет выбираться автоматически от 1 до 5 параметров\n";
-    cout << "Ваш набор команд: post, get, exit\nПогнали\n\n";
+    cout << "Ваш набор команд: post, get, exit\nПогнали ?\n\n";
 }
 
 static vector<cpr::Pair> generatePairs(bool genId)
